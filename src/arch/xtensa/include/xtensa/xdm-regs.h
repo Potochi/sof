@@ -211,8 +211,8 @@
 /***********  Bit definitions within some of the above registers  ***********/
 #define OCD_ID_LSDDRP			0x01000000
 #define OCD_ID_LSDDRP_SHIFT			24
-#define OCD_ID_ENDIANESS		0x00000001
-#define OCD_ID_ENDIANESS_SHIFT			 0
+#define OCD_ID_ENDIANNESS		0x00000001
+#define OCD_ID_ENDIANNESS_SHIFT		 0
 #define OCD_ID_PSO			0x0000000C
 #define OCD_ID_PSO_SHIFT			 2
 #define OCD_ID_TRACEPORT		0x00000080

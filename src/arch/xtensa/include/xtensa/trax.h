@@ -332,7 +332,7 @@ int trax_set_pcstop (trax_context *context, int index, unsigned long startaddres
  * index	: container of information about the number of stop triggers
  * startaddress	: container of start range of stop trigger
  * endaddress	: container of end range of stop trigger
- * flags	: container of information whcih indicates whether the
+ * flags	: container of information which indicates whether the
  * 		  pc stop range is inverted or not.
  *
  * returns      : 0 if successful, -1 if unsuccessful

@@ -369,7 +369,7 @@
 # define XTHAL_SET_CCOMPARE(n,v)	do {/*nothing*/} while(0)
 #endif
 
-/*  New functions added to accomodate XEA3 and allow deprecation of older
+/*  New functions added to accommodate XEA3 and allow deprecation of older
     functions. For this release they just map to the older ones.  */
 
 /*  Enables the specified interrupt.  */
