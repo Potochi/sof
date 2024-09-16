@@ -127,7 +127,7 @@ _PD_RELEASE_VNN:
 
 _PD_SEND_IPC:
 	// Send IPC to host informing of PD completion - Clear BUSY bit by
-	// writting IPC_DIPCT_BUSY to IPC_DIPCT
+	// writing IPC_DIPCT_BUSY to IPC_DIPCT
 	l32i temp_reg1, host_base, IPC_DIPCT
 	movi temp_reg2, IPC_DIPCT_BUSY
 	or temp_reg1, temp_reg1, temp_reg2

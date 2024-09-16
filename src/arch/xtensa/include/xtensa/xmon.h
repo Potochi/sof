@@ -123,12 +123,12 @@ _xmon_log(char app_log_en, char app_trace_en,
  * Receive remote packet bytes from GDB
  * wait:    If the function would block waiting for more 
  *          characters from gdb, wait=0 instructs it to 
- *          return 0 immediatelly. Otherwise, if wait=1, 
+ *          return 0 immediately. Otherwise, if wait=1,
  *          the function may or may not wait for GDB. 
  *          NOTE: Current XMON version supports single char
  *          input only (return value is 1 always)
  * buf:     Pointer to the buffer for the received data.
- * Returns: 0  - no data avaiable, 
+ * Returns: 0  - no data available,
             >0 - length of received array in buf.
  */
 extern int 

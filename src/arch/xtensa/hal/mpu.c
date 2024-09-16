@@ -527,7 +527,7 @@ static int encode_access_rights(int cattr)
 
 /*
  * returns the largest value rv, such that for every index < rv,
- * entrys[index].vStartAddress < first.
+ * entries[index].vStartAddress < first.
  *
  * Assumes an ordered entry array (even disabled entries must be ordered).
  * value returned is in the range [0, XCHAL_MPU_ENTRIES].
